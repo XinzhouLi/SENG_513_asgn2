@@ -7,3 +7,14 @@
 #header #title{
     font-weight: bolder;
 }
+
+#header #round{
+    justify-items: center;
+    margin-left: auto;
+}
+
+
+#header #currentPlayer{
+    justify-content: flex-end;
+    margin-left: auto;
+}
