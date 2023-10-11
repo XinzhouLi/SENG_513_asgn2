@@ -1,0 +1,9 @@
+#header{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+#header #title{
+    font-weight: bolder;
+}
