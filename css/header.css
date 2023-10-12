@@ -2,8 +2,25 @@
     font-size: 40px;
     display: flex;
     flex-direction: row;
+    background-image: url("../images/background.jpeg");
+    background-size: cover   ;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 15% 4%;
+    color: white;
 }
 
 #header #title{
     font-weight: bolder;
+}
+
+#header #round{
+    justify-items: center;
+    margin-left: auto;
+}
+
+
+#header #currentPlayer{
+    justify-content: flex-end;
+    margin-left: auto;
 }
