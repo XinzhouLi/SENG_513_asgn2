@@ -5,6 +5,8 @@
     grid-template-columns: repeat(15,40px);
     border-color: black;
     border-style:solid;
+    width: 600px;
+    margin-left: 340px;
     /*line-grid-mode: ;*/
 
 }
@@ -17,8 +19,8 @@
 }
 .chessGrid .h{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 50%;
     border-bottom: 2px solid #000;
@@ -26,7 +28,7 @@
 .chessGrid .v{
     position: absolute;
     left: 50%;
-    top: 0px;
+    top: 0;
     width: 50%;
     height: 100%;
     border-left: 2px solid #000;
@@ -35,11 +37,11 @@
     position: absolute;
     left: 25%;
     top: 25%;
-    background-color: black;
+    background-color: transparent;
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    display: none;
+    border-style: none;
 }
 
 .chessGrid .black{
@@ -60,4 +62,16 @@
     height: 50%;
     border-radius: 50%;
     border: 1px solid #000
+}
+
+.chessGrid .empty button:hover{
+    /*position: absolute;*/
+    /*left: 25%;*/
+    /*top: 25%;*/
+    /*background-color: grey;*/
+    color: green;
+    /*width: 50%;*/
+    /*height: 50%;*/
+    /*border-radius: 50%;*/
+
 }
