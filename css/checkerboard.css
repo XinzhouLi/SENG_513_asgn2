@@ -4,10 +4,12 @@
     grid-template-rows: repeat(15, 40px);
     grid-template-columns: repeat(15,40px);
     border-color: black;
-    border-style:solid;
+    border-style:none;
     width: 600px;
-    margin-left: 340px;
+    margin-left: 25%;
+    margin-top: 1%;
     /*line-grid-mode: ;*/
+    background-image: url("../images/board.jpg");
 
 }
 
@@ -42,6 +44,7 @@
     height: 50%;
     border-radius: 50%;
     border-style: none;
+    cursor:pointer;
 }
 
 .chessGrid .black{
@@ -52,6 +55,7 @@
     width: 50%;
     height: 50%;
     border-radius: 50%;
+    border-style: none;
 }
 .chessGrid .white{
     position: absolute;
@@ -64,14 +68,11 @@
     border: 1px solid #000
 }
 
-.chessGrid .empty button:hover{
-    /*position: absolute;*/
-    /*left: 25%;*/
-    /*top: 25%;*/
-    /*background-color: grey;*/
-    color: green;
-    /*width: 50%;*/
-    /*height: 50%;*/
-    /*border-radius: 50%;*/
+.chessGrid .test{
+    display: none;
+}
 
+ .chessGrid .empty:hover{
+    background-color: grey;
+     transition-duration: 0.2s;
 }
