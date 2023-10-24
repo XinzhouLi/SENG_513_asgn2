@@ -2,7 +2,11 @@
 
 let round = 0;
 let currentPlayer = round%2;
-
+/*Course: SENG 513*/
+/*Date: OCT 23, 2023*/
+/*Assignment 2 part1*/
+/*Name: Xinzhou Li*/
+/*UCID: 30066080*/
 
 // init the board when the window load
 window.onload = function (){

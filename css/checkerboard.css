@@ -1,3 +1,10 @@
+/*Course: SENG 513*/
+/*Date: OCT 23, 2023*/
+/*Assignment 2 part1*/
+/*Name: Xinzhou Li*/
+/*UCID: 30066080*/
+
+
 #checkerboard{
 
     display: grid;
@@ -6,11 +13,12 @@
     border-color: black;
     border-style:none;
     width: 600px;
-    margin-left: 25%;
-    margin-top: 1%;
+
     /*line-grid-mode: ;*/
     background-image: url("../images/board.jpg");
+    /*align-self: center;*/
 
+    margin: auto;
 }
 
 
@@ -76,3 +84,10 @@
     background-color: grey;
      transition-duration: 0.2s;
 }
+ body{
+     background-image: url("../images/maple.jpg");
+
+     background-size: cover;
+     background-repeat: no-repeat;
+     filter: saturate(70%);
+ }

@@ -1,9 +1,16 @@
+/*Course: SENG 513*/
+/*Date: OCT 23, 2023*/
+/*Assignment 2 part1*/
+/*Name: Xinzhou Li*/
+/*UCID: 30066080*/
+
+
 #header{
     font-size: 40px;
     display: flex;
     flex-direction: row;
     background-image: url("../images/background.jpeg");
-    background-size: cover   ;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
     padding: 12% 4%;
